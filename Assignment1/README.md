@@ -26,7 +26,7 @@ one-hot vectors for training the custom neural network.
 
 The required custom network is:
 
-`4 input features â 8 sigmoid neurons â 6 sigmoid neurons â 3 softmax outputs`
+`4 input features -> 8 sigmoid neurons -> 6 sigmoid neurons -> 3 softmax outputs`
 
 The implementation includes:
 
@@ -90,13 +90,9 @@ results
 
 -----------------------------------------------------------------------
 
-Keep the notebook and Python modules in the same directory so the
-imports work as written in the notebook.
-The notebook currently imports
-modules using the names `data_preparation`, `nn_pipeline`,
-`eval_analysis`, and `experiment_analysis`; rename the uploaded files to
-those exact names if they currently include version suffixes such as
-`(4)`.
+Keep the notebook and Python modules in the same directory so the imports work
+as written in the notebook. The notebook imports `data_preparation`,
+`nn_pipeline`, `eval_analysis`, and `experiment_analysis`.
 
 
 ## Requirements
